@@ -10,6 +10,7 @@ Users can select or randomize aesthetics to get:
 
 > Built with pure HTML, CSS, and JavaScript — no backend, no frameworks required.
 
+!{Visit the Site](https://ctrlbandit.github.io/discord-theme-generator/)
 ---
 
 ## ✨ Features
