@@ -1,7 +1,7 @@
 # 🌟 Discord Server Theme Generator
 
 A lightweight web tool that helps Discord users generate server themes based on popular aesthetics.
-
+[Visit the Site](https://ctrlbandit.github.io/discord-theme-generator/)
 Users can select or randomize aesthetics to get:
 - Matching emoji sets
 - Color palettes
@@ -10,7 +10,6 @@ Users can select or randomize aesthetics to get:
 
 > Built with pure HTML, CSS, and JavaScript — no backend, no frameworks required.
 
-!{Visit the Site](https://ctrlbandit.github.io/discord-theme-generator/)
 ---
 
 ## ✨ Features
