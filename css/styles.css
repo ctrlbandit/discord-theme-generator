@@ -1,4 +1,4 @@
-/* Basic page setup */
+
 body {
     font-family: Arial, sans-serif;
     background: #2c2f33;
@@ -7,9 +7,9 @@ body {
     padding: 20px;
 }
 
-/* Links */
+
 a {
-    color: #72b7ff; /* Light blue links */
+    color: #72b7ff; 
     text-decoration: none;
 }
 
@@ -17,7 +17,7 @@ a:hover {
     text-decoration: underline;
 }
 
-/* Main container */
+
 .container {
     max-width: 800px;
     margin: auto;
@@ -27,7 +27,7 @@ a:hover {
     box-shadow: 0 0 10px #000;
 }
 
-/* Form inputs */
+
 input[type="text"], select {
     width: 70%;
     padding: 10px;
@@ -38,12 +38,11 @@ input[type="text"], select {
     color: #f0f0f0;
 }
 
-/* Theme dropdown */
 select {
     height: 120px;
 }
 
-/* Buttons */
+
 button {
     padding: 10px 15px;
     background-color: #7289da;
@@ -57,17 +56,17 @@ button:hover {
     background-color: #5b6eae;
 }
 
-/* Hidden content */
+
 .hidden {
     display: none;
 }
 
-/* Results container (after generation) */
+
 #resultsContainer {
     margin-top: 20px;
 }
 
-/* Color Palette styling */
+
 .palette-row, #colorPaletteAdvanced {
     display: flex;
     flex-wrap: wrap;
@@ -76,15 +75,14 @@ button:hover {
     justify-content: flex-start;
 }
 
-/* Single color block */
 .color-block, .color-chip {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 70px; /* adjust width to fit colors nicely */
+    width: 70px; 
 }
 
-/* Colored box itself */
+
 .color-box {
     width: 50px;
     height: 50px;
@@ -93,7 +91,7 @@ button:hover {
     box-sizing: border-box;
 }
 
-/* Hex code text under color */
+
 .color-hex {
     margin-top: 5px;
     font-size: 0.75em;
