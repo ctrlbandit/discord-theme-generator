@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discord Server Theme Generator</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Discord Server Theme Generator</h1>
+        <p>Choose your themes (you can select multiple):</p>
+        
+        <select id="themeSelect" multiple>
+            <!-- Options will be populated dynamically -->
+        </select>
+
+        <p>Or enter a custom keyword:</p>
+        <input type="text" id="keywordInput" placeholder="e.g., Sky Kingdom">
+        
+        <button id="generateButton">Generate Ideas</button>
+        <button id="randomizeButton">Randomize Themes</button>
+<button id="savePresetButton">Save Current Selection</button>
+<div id="resultsContainer" class="hidden">
+    <h2>Generated Ideas</h2>
+    <div id="colorPalette"></div>
+    <div id="emojiSuggestions"></div>
+    <div id="roleNameIdeas"></div>
+    <div id="pinterestLink"></div>
+    <button id="copyButton">Copy All Ideas</button>
+</div>
+<select id="presetSelect">
+    <option value="">-- No preset selected --</option>
+</select>
+        </div>
+    </div>
+    <div id="paletteGenerator">
+        <h2>Color Palette Generator</h2>
+        <div id="colorPaletteAdvanced"></div>
+        <button id="regenerateColorsButton">Regenerate Palette</button>
+    </div>
+    <script src="js/emoji-data.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
